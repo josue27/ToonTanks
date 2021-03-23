@@ -19,12 +19,10 @@ private:
 	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="Components",meta=(AllowPrivateAccess = "true"))
 	UCameraComponent* Camera;
 	
-<<<<<<< HEAD
 	FVector MoveDirection;
 	FQuat RotationDirection;
-	UPROPERTY(EditAnywhere,BlueprintReadWrite, Category="Movement",meta=(AllowPrivateAccess = "true"))
+
 	float MoveSpeed = 100.0f;
-	UPROPERTY(EditAnywhere,BlueprintReadWrite, Category="Movement",meta=(AllowPrivateAccess = "true"))
 	float RotateSpeed = 100.0f;
 
 	void CalculateMoveInpunt(float Value);
@@ -32,9 +30,6 @@ private:
 
 	void Move();
 	void Rotate();
-=======
-
->>>>>>> parent of 216741e (Pawn Movement input)
 public:
 	APawnTank();
 
