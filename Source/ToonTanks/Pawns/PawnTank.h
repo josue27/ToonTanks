@@ -19,6 +19,7 @@ private:
 	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="Components",meta=(AllowPrivateAccess = "true"))
 	UCameraComponent* Camera;
 	
+<<<<<<< HEAD
 	FVector MoveDirection;
 	FQuat RotationDirection;
 	UPROPERTY(EditAnywhere,BlueprintReadWrite, Category="Movement",meta=(AllowPrivateAccess = "true"))
@@ -31,6 +32,9 @@ private:
 
 	void Move();
 	void Rotate();
+=======
+
+>>>>>>> parent of 216741e (Pawn Movement input)
 public:
 	APawnTank();
 
