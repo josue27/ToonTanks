@@ -43,5 +43,15 @@
         "file": "d:\\\\EXP_Unreal\\\\Curso_EpicGames_C++\\\\ToonTanksProjectSetup_4.25\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Pawns\\\\PawnTurret.cpp",
         "command": "cl.exe @\"D:\\EXP_Unreal\\Curso_EpicGames_C++\\ToonTanksProjectSetup_4.25\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.190.rsp\"",
         "directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "d:\\\\EXP_Unreal\\\\Curso_EpicGames_C++\\\\ToonTanksProjectSetup_4.25\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Actors\\\\ProjectileBase.h",
+        "command": "cl.exe @\"D:\\EXP_Unreal\\Curso_EpicGames_C++\\ToonTanksProjectSetup_4.25\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.190.rsp\"",
+        "directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "d:\\\\EXP_Unreal\\\\Curso_EpicGames_C++\\\\ToonTanksProjectSetup_4.25\\\\ToonTanksProjectSetup_4.25\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\Actors\\\\ProjectileBase.cpp",
+        "command": "cl.exe @\"D:\\EXP_Unreal\\Curso_EpicGames_C++\\ToonTanksProjectSetup_4.25\\ToonTanksProjectSetup_4.25\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.190.rsp\"",
+        "directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
     }
 ]
