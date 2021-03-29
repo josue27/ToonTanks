@@ -21,8 +21,9 @@ private:
 	
 	FVector MoveDirection;
 	FQuat RotationDirection;
-
+	UPROPERTY(EditAnyWhere,Category="Settings")
 	float MoveSpeed = 100.0f;
+	UPROPERTY(EditAnyWhere,Category="Settings")
 	float RotateSpeed = 100.0f;
 	APlayerController* PlayerControllerRef;
 
@@ -31,6 +32,8 @@ private:
 
 	void Move();
 	void Rotate();
+
+	bool bIsPlayerAlive = true;
 public:
 	APawnTank();
 
@@ -41,6 +44,8 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	virtual void HandleDestruction() override;
+
+	bool GetIsPlayerAlive();
 
 protected:
 	// Called when the game starts or when spawned

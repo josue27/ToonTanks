@@ -11,16 +11,14 @@ UHealthComponent::UHealthComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = false;
 
-	// ...
+	
 }
-
-
 // Called when the game starts
 void UHealthComponent::BeginPlay()
 {
 	Super::BeginPlay();
-
 	Health = DefaultHealth;
+
 	GameModeRef = Cast<ATankGameModeBase>(UGameplayStatics::GetGameMode(GetWorld()));
 	GetOwner()->OnTakeAnyDamage.AddDynamic(this, &UHealthComponent::TakeDamage);
 }
@@ -32,6 +30,7 @@ void UHealthComponent::TakeDamage(AActor* DamagedActor,float Damage,const UDamag
 		return;
 	}
 	Health = FMath::Clamp(Health - Damage,0.0f,DefaultHealth);
+	UE_LOG(LogTemp,Warning,TEXT("Health: %f"),Health);
 	if(Health <= 0)
 	{
 		if(GameModeRef)
